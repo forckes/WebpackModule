@@ -1,0 +1,23 @@
+body {
+  background-color: #282b34;
+}
+
+.container {
+  height: 100vh;
+  max-width: 700px;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+}
+
+.text {
+  font-size: 56px;
+  font-weight: 700;
+  display: flex;
+  color: #fff;
+  background-color: #314750;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  padding: 35px;
+}

@@ -1,0 +1,27 @@
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/common.scss ***!
+  \***************************************************************************************************************/
+body {
+  background-color: #282b34;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  max-width: 700px;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+}
+
+.text {
+  font-size: 56px;
+  font-weight: 700;
+  display: flex;
+  color: #fff;
+  background-color: #314750;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  padding: 35px;
+}
